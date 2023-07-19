@@ -1,0 +1,16 @@
+[package]
+name = "actix-hello-world"
+version = "0.1.0"
+edition = "2021"
+description = "A simple implementation of a REST API server in rust"
+authors = ["Romano Lucchesi <me@romanolucchesi.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4.3.1"
+env_logger = "0.10.0"
+log = "0.4.19"
+serde = { version = "1.0.171", features = ["derive"] }
+serde_repr = "0.1.14"
+tracing = "0.1.37"
